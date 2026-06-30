@@ -1,0 +1,17 @@
+h1{
+  color:brown;
+}
+.highlight{
+  color:purple;
+  text-align:center;
+  font-size:36px;
+  background-color:white;
+}
+#highlighter{
+  color:lavender;
+  font-size:36px;
+}
+#bold{
+  color:brown;
+  background-color:violet;
+}
