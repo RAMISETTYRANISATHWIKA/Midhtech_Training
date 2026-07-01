@@ -1,0 +1,122 @@
+#HTML{
+background-color:Yellow;
+color:rgba(255,0,0,1);
+}
+h1{
+color:blue;
+}
+h2{
+color:green;
+}
+#Brown{
+color:brown;
+}
+body{
+background-color:#F5F5F5;
+}
+header{
+color:Yellow;
+background-color:lightblue;
+font-size:36px;
+}
+#Task{
+color:#2E86C1;
+}
+footer{
+color:#34495E;
+background-color:lightblue;
+}
+#subtext{
+color:#28B463;
+}
+*{
+box-sizing:content-box;
+}
+.box{
+width:250px;
+padding:40px;
+border:14px solid #000;
+background:#87CEEB;
+font-size:20px;
+}
+.login-form{
+width:400px;
+margin:40px auto;
+padding:20px;
+border:2px solid black;
+background:white;
+text-align:center;
+}
+.login-heading{
+color:black;
+}
+.login-form input{
+width:350px;
+padding:10px;
+margin:10px 0;
+}
+.login-form button{
+width:350px;
+padding:10px;
+background:skyblue;
+border:none;
+cursor:pointer;
+font-size:18px;
+}
+.container{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+.card{
+width:150px;
+height:180px;
+background-color:skyblue;
+border:2px solid black;
+border-radius:10px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:24px;
+font-weight:bold;
+}
+.card:hover{
+background-color:lightgreen;
+}
+/* Desktop */
+@media(max-width:1200px){
+.card{
+width:30%;
+}
+}
+/* Tablet */
+@media(max-width:768px){
+.card{
+width:45%;
+}
+}
+/* Mobile */
+@media(max-width:480px){
+body{
+background-color:gray;
+}
+.login-form{
+width:90%;
+}
+.login-form input{
+width:100%;
+box-sizing:border-box;
+}
+.login-form button{
+width:100%;
+box-sizing:border-box;
+}
+.login-heading{
+font-size:24px;
+}
+.card{
+width:100%;
+}
+}
